@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 
 class ApiService {
   static const String _baseUrl =
-      'https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0';
+      'YOUR_HUGGING_FACE_TOKEN';
   static const String _apiKey = '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';
 
   static Future<Uint8List?> generateImage(String inputText) async {
