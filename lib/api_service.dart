@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 class ApiService {
   static const String _baseUrl =
       'YOUR_HUGGING_FACE_TOKEN';
-  static const String _apiKey = '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';
+  static const String _apiKey = 'API_KEY';
 
   static Future<Uint8List?> generateImage(String inputText) async {
     final url = Uri.parse(_baseUrl);
